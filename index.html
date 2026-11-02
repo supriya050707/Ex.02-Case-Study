@@ -4,116 +4,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaCart | Online Shopping</title>
+    <title>LUMORA | Living Beautifully</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navigation -->
-<header>
-    <h1>Nova<span>Cart.</span></h1>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#products">Products</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <a href="#account" class="login">My Account</a>
-</header>
-
-<!-- Homepage -->
-<section class="hero" id="home">
-    <div class="hero-content">
-        <p class="tag">WELCOME TO NOVACART</p>
-        <h2>Discover Your<br>New Favourite Style.</h2>
-        <p>Explore unique collections and enjoy shopping with us.</p>
-        <a href="#products" class="shop-btn">Shop Now →</a>
+    <!-- Announcement Bar -->
+    <div class="announcement">
+        FREE SHIPPING ON ORDERS ABOVE ₹2,999
     </div>
 
-    <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=900"
-             alt="Fashion clothing collection">
-    </div>
-</section>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="logo">LUMORA<span>.</span></h1>
 
-<!-- Products -->
-<section class="products-section" id="products">
-    <p class="tag">HANDPICKED FOR YOU</p>
-    <h2>Explore Our Products</h2>
-    <p class="subtitle">Quality products for your everyday needs.</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#collections">Collections</a>
+            <a href="#featured">Featured</a>
+            <a href="#about">Our Story</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <div class="products">
+        <a href="#account" class="account-link">My Account ↗</a>
+    </header>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
-                 alt="Red sports shoes">
-            <h3>Sports Shoes</h3>
-            <p>₹1,999</p>
-            <button>Buy Now</button>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+            <p class="eyebrow">DESIGNED FOR BETTER LIVING</p>
+
+            <h2>Make Room<br>For Beautiful<br><em>Things.</em></h2>
+
+            <p class="hero-description">
+                Thoughtfully selected furniture, home decor
+                and lifestyle essentials that make every
+                corner feel special.
+            </p>
+
+            <a href="#collections" class="primary-btn">
+                Explore Collection →
+            </a>
+
+            <div class="hero-note">
+                <span>01 — 04</span>
+                <span>CURATED FOR YOUR SPACE</span>
+            </div>
         </div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500"
-                 alt="Classic wrist watch">
-            <h3>Classic Watch</h3>
-            <p>₹2,499</p>
-            <button>Buy Now</button>
+        <div class="hero-photo">
+            <img
+                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1000"
+                alt="Elegant modern living room">
+            <div class="photo-label">
+                <span>THE ART OF LIVING</span>
+                <strong>Simple. Natural. Timeless.</strong>
+            </div>
         </div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"
-                 alt="Wireless headphones">
-            <h3>Headphones</h3>
-            <p>₹1,499</p>
-            <button>Buy Now</button>
+    </section>
+
+    <!-- Category Section -->
+    <section class="collections" id="collections">
+
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">EXPLORE OUR WORLD</p>
+                <h2>Shop by Category</h2>
+            </div>
+            <p>Beautiful essentials for every part of your home.</p>
         </div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"
-                 alt="Fashion handbag">
-            <h3>Fashion Handbag</h3>
-            <p>₹1,799</p>
-            <button>Buy Now</button>
+        <div class="category-grid">
+
+            <div class="category furniture">
+                <img
+                    src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=700"
+                    alt="Modern living room furniture">
+                <div class="category-info">
+                    <span>01 / COMFORT</span>
+                    <h3>Furniture</h3>
+                    <a href="#featured">Discover →</a>
+                </div>
+            </div>
+
+            <div class="category decor">
+                <img
+                    src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?w=700"
+                    alt="Decorative home accessories">
+                <div class="category-info">
+                    <span>02 / DETAILS</span>
+                    <h3>Home Decor</h3>
+                    <a href="#featured">Discover →</a>
+                </div>
+            </div>
+
+            <div class="category lighting">
+                <img
+                    src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700"
+                    alt="Decorative lighting">
+                <div class="category-info">
+                    <span>03 / AMBIENCE</span>
+                    <h3>Lighting</h3>
+                    <a href="#featured">Discover →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured" id="featured">
+
+        <div class="featured-heading">
+            <p class="eyebrow">THE LUMORA EDIT</p>
+            <h2>Objects With Character.</h2>
+            <p>Our favourite pieces, selected just for you.</p>
         </div>
 
-    </div>
-</section>
+        <div class="product-grid">
 
-<!-- About -->
-<section class="about" id="about">
-    <p class="tag">WHO WE ARE</p>
-    <h2>Shopping Made Better.</h2>
-    <p>
-        NovaCart is an online shopping destination offering
-        fashionable products, modern accessories and quality
-        collections at affordable prices. Our goal is to make
-        every shopping experience simple and enjoyable.
-    </p>
-</section>
+            <div class="product">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1499933374294-4584851497cc?w=600"
+                        alt="Minimal wooden work desk">
+                    <span class="product-tag">BESTSELLER</span>
+                </div>
+                <h3>Nordic Work Desk</h3>
+                <p>Solid Wood Collection</p>
+                <strong>₹8,499</strong>
+            </div>
 
-<!-- Contact -->
-<section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: support@novacart.com</p>
-    <p>Phone: +91 9876543210</p>
-    <p>Location: Chennai, India</p>
-</section>
+            <div class="product">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=600"
+                        alt="Modern ceramic vase">
+                    <span class="product-tag">NEW ARRIVAL</span>
+                </div>
+                <h3>Clay Ceramic Vase</h3>
+                <p>Handcrafted Decor</p>
+                <strong>₹1,299</strong>
+            </div>
 
-<!-- Account -->
-<section class="account" id="account">
-    <h2>Join the NovaCart Family!</h2>
-    <p>Create your account and explore our latest collections.</p>
-    <button>Login / Sign Up</button>
-</section>
+            <div class="product">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600"
+                        alt="Contemporary table lamp">
+                </div>
+                <h3>Ambient Table Lamp</h3>
+                <p>Modern Lighting</p>
+                <strong>₹2,199</strong>
+            </div>
 
-<!-- Footer -->
-<footer>
-    <h2>Nova<span>Cart.</span></h2>
-    <p>Instagram | Facebook | Twitter</p>
-    <p>© 2026 NovaCart. All Rights Reserved.</p>
-</footer>
+            <div class="product">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1600210491369-e753d80a41f3?w=600"
+                        alt="Elegant interior decor">
+                </div>
+                <h3>Living Space Set</h3>
+                <p>Premium Lifestyle</p>
+                <strong>₹5,999</strong>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Brand Story -->
+    <section class="story" id="about">
+
+        <div class="story-image">
+            <img
+                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=900"
+                alt="Beautifully designed home interior">
+        </div>
+
+        <div class="story-content">
+            <p class="eyebrow">A LITTLE ABOUT US</p>
+            <h2>Less Ordinary.<br><em>More Meaningful.</em></h2>
+
+            <p>
+                At LUMORA, we believe that a beautiful home
+                is created through thoughtful choices.
+                We bring together timeless designs, natural
+                textures and everyday functionality.
+            </p>
+
+            <a href="#contact" class="secondary-btn">
+                Discover Our Story →
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Promotional Section -->
+    <section class="offer">
+        <p class="eyebrow">A SPECIAL SOMETHING FOR YOU</p>
+        <h2>Good Spaces. Better Days.</h2>
+        <p>Get 15% OFF on your first purchase.</p>
+        <a href="#featured">SHOP THE COLLECTION →</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+
+        <div>
+            <p class="eyebrow">WE WOULD LOVE TO HEAR FROM YOU</p>
+            <h2>Let's Connect.</h2>
+        </div>
+
+        <div class="contact-details">
+            <p>Email: hello@lumora.com</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Location: Chennai, India</p>
+        </div>
+
+    </section>
+
+    <!-- Account -->
+    <section class="account" id="account">
+        <h2>Become Part of LUMORA.</h2>
+        <p>Join our community for new collections and special offers.</p>
+        <a href="#contact">GET IN TOUCH →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <h2>LUMORA<span>.</span></h2>
+            <p>Creating spaces that feel like home.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Instagram · Facebook · Pinterest</p>
+            <p>© 2026 LUMORA. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
